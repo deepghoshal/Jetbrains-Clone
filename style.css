@@ -294,3 +294,93 @@ a {
     font-size: 12px;
 }
 
+/* Mobile First Approach */
+@media (max-width: 768px) {
+  .col-1, .footer-2, .footer-social {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-2, .col-3 {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .col-3 {
+    padding: 10px 0;
+  }
+
+  .hero-text {
+    padding: 0 20px;
+    margin-top: 60px;
+  }
+
+  .ht-h {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .ht-p {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .main-1, .main-2 {
+    flex-direction: column;
+  }
+
+  .buy, .buy-l {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .dl-buy {
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+  }
+
+  .footer-2 {
+    text-align: center;
+  }
+
+  .footer-3-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-cc {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-use a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .ht-h {
+    font-size: 32px;
+  }
+
+  .ht-p {
+    font-size: 18px;
+  }
+
+  .main-d,
+  .main-d1 {
+    width: 80px;
+    height: 25px;
+    font-size: 12px;
+    padding: 3px 0;
+  }
+
+  .footer-3-1 a, .footer-3-2 a {
+    font-size: 13px;
+  }
+}
+
+
